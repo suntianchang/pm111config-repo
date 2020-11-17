@@ -1,0 +1,18 @@
+spring:
+  application:
+    name: user
+  datasource:
+    username: root
+    password: 1234
+    url: jdbc:mysql:///pm111?useSSL=false&serverTimezone=Asia/Shanghia
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  redis:
+    host: 192.168.1.102
+    port: 6379
+  rabbitmq:
+    host: 192.168.1.102
+    port: 5672
+    username: guest
+    password: guest
+server:
+  port: 9090
